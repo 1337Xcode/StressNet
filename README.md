@@ -14,17 +14,17 @@ Botnet is a powerful stress-testing tool designed for penetration testers and se
 
 ## Prerequisites
 
-- Termux installed on your Android device (available on Google Play Store)
+- Termux installed on your Android device from [F-Droid](https://f-droid.org/packages/com.termux)
 - Basic knowledge of networking and network security
-- Git installed on your Termux environment (`pkg install git`)
+- Git and other prerequisites installed on your Termux environment (refer to Installation)
 
 ## Installation
 
 1. Open Termux on your Android device.
-2. Install Git if you haven't already: `pkg install git`
+2. Install Git, tsu and hping3 if you haven't already: `pkg install git -y && pkg install tsu && pkg install root-repo && pkg intall hping3`
 3. Clone the Botnet repository: `git clone https://github.com/1337Xcode/Botnet`
 4. Navigate to the Botnet directory: `cd Botnet`
-5. Run the Botnet script: `su -c bash botnet.sh`
+5. Run the Botnet script: `sudo bash botnet.sh`
 
 ## Usage
 
