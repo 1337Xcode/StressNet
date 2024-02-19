@@ -5,8 +5,7 @@ initialize() {
         echo "This script must be run as root. Exiting."
         exit 1
     fi
-    chmod +x ./hping3
-    echo "Initialization complete. Starting the script..."
+    echo "Starting the script..."
 }
 
 syn_flood_attack() {
